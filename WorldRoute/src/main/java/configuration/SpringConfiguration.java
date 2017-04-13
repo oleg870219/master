@@ -10,7 +10,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "entity")
+@ComponentScan(basePackages = {"entity"})
 public class SpringConfiguration extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
@@ -19,7 +19,7 @@ public class SpringConfiguration extends AbstractAnnotationConfigDispatcherServl
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class<?>[0];
+        return new Class<?>[]{BeanHolder.class, SpringConfiguration.class};
     }
 
     @Override

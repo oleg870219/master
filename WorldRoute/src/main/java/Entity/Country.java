@@ -1,13 +1,20 @@
 package entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import org.springframework.stereotype.Component;
+
 /**
  * Created by oform on 4/10/2017.
  */
+
+@Component
 public class Country {
 
-    Long id;
+    @JsonProperty("id")
+    Long id = 1l;
 
-    String name;
+    @JsonProperty("name")
+    String name = "Ukraine";
 
     public Long getId() {
         return id;
