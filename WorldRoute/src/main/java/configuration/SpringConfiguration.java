@@ -9,7 +9,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
  * Created by oform on 4/10/2017.
  */
 @Configuration
-@EnableWebMvc // !!!!!
+@EnableWebMvc // !!!!!!!
 @ComponentScan(basePackages = {"entity"})
 public class SpringConfiguration extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
