@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="WorldRoute" />
         <module name="worldRoute" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="WorldRoute" target="1.5" />
       <module name="worldRoute" target="1.5" />
     </bytecodeTargetLevel>
   </component>

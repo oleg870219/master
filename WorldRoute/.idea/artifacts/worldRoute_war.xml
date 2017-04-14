@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="worldRoute:war">
+  <artifact type="war" name="WorldRoute:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="worldRoute-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="worldRoute:war exploded" />
+      <element id="artifact" artifact-name="WorldRoute:war exploded" />
     </root>
   </artifact>
 </component>
